@@ -79,3 +79,10 @@ body {
     font-weight: 300;
     line-height: 1.2;
 }
+
+.project-carousel .carousel-indicators{
+  position:absolute;
+  right:0;
+  bottom:-50px;
+  left:0px; 
+ }
