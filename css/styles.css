@@ -1,0 +1,33 @@
+/*
+ * Globals
+ */
+
+/* Custom Font */
+    body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+
+/*
+ * Header
+ */
+
+.nav-custom .nav-link {
+  color: #000000;
+}
+
+/* Remove default Bootstrap dropdown arrow */
+.dropdown-toggle::after {
+        display: none !important;
+    }
+
+/* Customize Bootstrap dropdown menu */
+.work-dropdown-menu {
+  min-width: 240px; /* Set your desired minimum width */
+  width: auto; /* Or set a fixed width like 300px */
+}
+
+.fwimages{
+height: 100%;
+	object-fit: cover;
+}
